@@ -48,12 +48,11 @@ export function About() {
             <div className="flex justify-center md:justify-end">
               <div className="relative group">
                 <div className="w-56 h-56 sm:w-64 sm:h-64 rounded-xl border-2 border-surface-light/50 bg-surface overflow-hidden transition-all duration-300 group-hover:border-primary/50">
-                  <div className="w-full h-full flex items-center justify-center bg-linear-to-br from-surface to-dark">
-                    <div className="text-center">
-                      <div className="text-5xl font-bold gradient-text mb-2">TT</div>
-                      <div className="font-mono text-xs text-gray-500">ML Engineer</div>
-                    </div>
-                  </div>
+                  <img
+                    src="/profile.jpeg"
+                    alt="Tushar Thokdar"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div className="absolute -inset-3 rounded-xl border border-primary/20 -z-10 transition-all duration-300 group-hover:border-primary/40" />
               </div>

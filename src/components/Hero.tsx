@@ -12,7 +12,7 @@ export function Hero() {
           {/* Status badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-accent/30 bg-accent/10 backdrop-blur-sm mb-8 animate-fade-in">
             <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-            <span className="text-sm font-medium text-accent">Available for remote roles worldwide</span>
+            <span className="text-sm font-medium text-accent">Open to new opportunities</span>
           </div>
 
           {/* Name */}

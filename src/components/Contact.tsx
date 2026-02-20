@@ -24,8 +24,9 @@ const links = [
     href: 'https://huggingface.co/Tushar365',
     value: 'Tushar365',
     icon: (
-      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1.5 7a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm3 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3zM8.5 14s1.5 2.5 3.5 2.5S15.5 14 15.5 14" />
+      <svg className="w-5 h-5" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1.5 7a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm3 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z" />
+        <path fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" d="M8.5 14s1.5 2.5 3.5 2.5 3.5-2.5 3.5-2.5" />
       </svg>
     ),
   },
