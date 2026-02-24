@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { Logo } from './Logo';
+import { Analytics } from "@vercel/analytics/next";
 
 const links = [
   { label: 'About', href: '#about' },
