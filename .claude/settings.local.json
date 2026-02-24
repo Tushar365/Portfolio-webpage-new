@@ -4,7 +4,8 @@
       "Bash(dir:*)",
       "Bash(bun run build:*)",
       "Bash(bunx astro sync:*)",
-      "Bash(bun run dev:*)"
+      "Bash(bun run dev:*)",
+      "Bash(bun add:*)"
     ]
   }
 }
